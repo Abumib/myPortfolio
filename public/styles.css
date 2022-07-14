@@ -1,0 +1,1047 @@
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color:auto;
+    color:auto;
+    
+    /* text-align: center; */
+}
+
+/* .numbering{
+    color:#3F4E4F;
+}
+
+.heading{
+    color:#2C3639;
+} */
+
+p{
+    font-size: 1.5rem;
+}
+
+.logo{
+    font-size:2rem;
+}
+
+/* ///////////////I am editing the styles for 15in screen //////////// */
+
+.navbar{
+    padding: 20px 0;
+    font-size: 1.5rem;
+}
+
+
+a:link { text-decoration: none; color: black;}
+
+
+a:visited { text-decoration: none; color: black;}
+
+
+a:hover { text-decoration: none; color: white;}
+
+
+a:active { text-decoration: none; color: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////First section of my web page ////////////////////////////////////////////////// */
+/* Desktop size that is >= 1480px */
+@media screen and (min-width: 1500px){
+    /* TD */
+    p{
+        font-size: 1.5rem;
+    }
+    
+    .intro{
+        padding-top: 12%; 
+        padding-bottom:10%;
+    }
+    .introParagraph{
+        font-size: 1.5rem;
+    }
+    
+    /* TD */
+    .intro-heading{
+      margin: auto;
+      width: 60%;;
+    }
+    
+    .myName{
+        font-size: 6rem;
+    }
+    
+    .greeting{
+    }
+    
+    .myMiniverse{
+        font-size: 5.5rem;
+    }
+    
+    /* TD */
+    .introParagraphDiv{
+      margin: auto;
+      width: 60%;
+      padding-top: 2%;      
+    }
+    
+    .introParagraph{
+        width: 70%;
+    }
+    
+    /* TD */
+    .introBtnDiv{
+      padding-top: 2%;
+      margin: auto;
+      width: 60%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* //////////////////About Me section //////////////*/
+    
+    .aboutMeSection{
+        display: block;
+        justify-content: center;
+        padding-bottom: 5%;
+        
+    }
+    
+    .aboutMeLogo{
+      text-align: left;
+      padding: 90px 0 30px 0;
+      
+      
+      }
+      
+      /* TD */
+    .aboutMeLogoDiv{
+      margin: auto;
+      width: 55%;
+      
+      
+      }
+      
+    .myPic{
+        max-width: 100%;
+        height: auto;
+        border-radius: 5%;  
+    
+    }
+    
+    .aboutMePic{
+        padding: 0 10%;
+    }
+
+    /* TD */
+    .aboutMeContentDiv{
+        margin: auto;
+        width: 55%;
+      /* padding: 0 20% 0 15%; */
+    
+    }
+    
+    .aboutMeLogoDiv{
+        text-align: center;
+    }
+    
+    .aboutMeText{
+      font-size: 1.6rem;
+      text-align: justify;
+      text-justify: inter-word;
+      padding-right: 20px;
+    }
+    
+    /* ///////////////////// Jobs Section ////////////////////////////////// */
+    
+    
+    .jobsSection{
+        margin: auto; /*this will center the div*/
+        width: 45%;
+        padding: 100px 0;
+    }
+    
+    .jobsHeader{
+        padding: 50px 0;
+    }
+    
+    .jobsHeaderDiv{
+        text-align: left;
+    }
+    
+    .buttonWrapper{
+        margin: auto;
+    }
+    
+    .jobsButton{
+      padding: 15px;
+    }
+    
+    .jobsButtonDiv{
+      /* margin: auto; */
+        
+    }
+    
+    .jobsDiv{
+        margin: auto;
+    }
+    
+    .jobsDescDIv{
+      
+    }
+    
+    /* //////////////////  What I have built section /////////////////// */
+    
+    /* TC */
+    .projects{
+        max-height: 100%;
+        width: auto;
+        padding: 100px 0;
+    }
+    
+    .projectsHeadingDiv{
+      margin: auto;
+      width: 60%;
+    }
+    .projectsHeading{
+        text-align: left;
+        /* padding: 90px 0 30px 0; */
+    }
+    
+    /* TC */
+    .projectContent{
+        margin:auto;
+        width: 60%;
+    }
+    
+    
+    
+    /* TC */
+    .projectImg{    
+        /* position: relative;
+        left:10%; */
+        padding-top: 1%;
+        max-width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+    
+    /* TC */
+    .projectDesc{
+        direction:rtl;
+        /* padding-right: 15%; */
+    }
+    
+    .sportTrendExplanation{
+        background-color: #112B3C;
+        color: white;
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+    
+    .sportTrendtext{
+      padding: 0 0 15px 0;
+    }
+    
+    .featuredProject{
+        font-size: 1.4rem;
+    }
+    
+    .projectlinks{
+        display: inline;
+        padding: 0 0 0 20px;
+    }
+    
+    .projectlinksDiv{
+        padding: 10px;
+    }
+    
+    .githubLogo{
+        width:7%;
+        
+    }
+    
+    
+    
+    
+    /* /////////////Other projects Section /////////////////// */
+    
+    .OtherProjectsSection{
+        padding:50px;
+    }
+    .otherProjectsHeadingDiv{
+        margin: auto;
+        width: 60%;
+       
+    }
+    
+    /* TC */
+    .otherProjectsHeading{
+        text-align: center;
+        padding-top: 5%;
+        
+    }
+    
+    /* TC */
+    .projectCardsDiv{
+      justify-content: center;
+      /* padding: 2% 10%; */
+      margin: auto;
+      width:60%;
+    }
+    
+    
+    .projectCards{
+        border: 1px solid black;
+        width: 300px;
+    }
+    
+    .folderLogo{
+        width: 18%; 
+        height: auto;
+    }
+    
+    .folderLogoDIv{
+      padding: 20px 0 20px 10px;
+    }
+    
+    .cardText{
+        padding-left: 10px;
+        font-size: 1.3rem;
+    }
+    
+    .projectCardList{
+        display: inline-block;
+        padding: 0 0 0 10PX;
+    }
+    
+    .projectCards{
+        margin: 2%;
+    }
+    
+    /* /////////////////////GetInTouch Section ////////////////////////// */
+    
+    .getInTouchSection{
+        text-align: center;
+        padding: 200px 0;
+    }
+    
+    .whatNextText{
+    
+    }
+    .getintouchText{
+        font-size: 4rem;
+    }
+    
+    /* TC */
+    .getInTouchPara{
+        font-size: 1.5rem;
+        padding: 20px 300px;
+        margin: auto;
+        width: 65%;
+        text-align: center;
+    }
+    
+    .getInTouchButton{
+        padding: 10px;
+    }
+    
+    .footer{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .footerIcons{
+        padding: 2%;
+        margin:auto;
+    }
+
+    .icons{
+        width:25%;
+        margin:auto;
+        
+    }
+    
+    
+    .linkedinLogo{
+        /* text-align: right; */
+        width: 15%;
+    }
+    
+    .githubFooterLogo{
+        /* text-align:left ; */
+        width: 15%;
+    }
+
+    .twitterLogo{
+        width: 15%;
+    }
+    
+    
+}
+
+/* mediu screen size from 820px to 1440px  */
+@media screen and (min-width: 820px) and (max-width: 1499px) {
+    .intro{
+        padding-top: 6%; 
+    }
+    .introParagraph{
+        font-size: 1.5rem;
+    }
+    
+    .intro-heading{
+      margin: auto;
+      width: 80%;;
+    }
+    
+    .myName{
+        font-size: 5rem;
+    }
+    
+    .greeting{
+    }
+    
+    .myMiniverse{
+        font-size: 5rem;
+    }
+    
+    .introParagraphDiv{
+      margin: auto;
+      width: 80%;
+      padding-top: 2%;      
+    }
+    
+    .introParagraph{
+        width: 70%;
+    }
+    
+    .introBtnDiv{
+      padding-top: 2%;
+      margin: auto;
+      width: 80%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* //////////////////About Me section //////////////*/
+    
+    .aboutMeSection{
+        display: block;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+        
+    }
+    
+    .aboutMeLogo{
+      text-align: left;
+      padding: 90px 0 30px 0;
+      
+      
+      }
+      
+    .aboutMeLogoDiv{
+      /* margin: auto;
+      width: 80%; */
+      
+      
+      }
+      
+    .myPic{
+        max-width: 100%;
+        height: auto;
+        border-radius: 5%;  
+    
+    }
+    
+    .aboutMePic{
+        padding: 0 10%;
+    }
+    .aboutMeContent{
+      margin: auto;
+      width: 20%;
+      padding: 0 20% 0 15%;
+    
+    }
+    
+    
+    .aboutMeText{
+      font-size: 1.6rem;
+      text-align: justify;
+      text-justify: inter-word;
+      padding-right: 20px;
+    }
+    
+    /* ///////////////////// Jobs Section ////////////////////////////////// */
+    
+    
+    .jobsSection{
+        margin: auto; /*this will center the div*/
+        width: 60%;
+        padding: 100px 0;
+    }
+    
+    .jobsHeader{
+        padding: 50px 0;
+    }
+    
+    .jobsHeaderDiv{
+        text-align: left;
+    }
+    
+    .buttonWrapper{
+        margin: auto;
+    }
+    
+    .jobsButton{
+      padding: 15px;
+    }
+    
+    .jobsButtonDiv{
+      /* margin: auto; */
+        
+    }
+    
+    .jobsDiv{
+        margin: auto;
+    }
+    
+    .jobsDescDIv{
+      
+    }
+    
+    /* //////////////////  What I have built section /////////////////// */
+    
+    
+    .projects{
+        max-height: 100%;
+        width: auto;
+        
+    }
+    
+    .projectsHeadingDiv{
+      margin: auto;
+      width: 70%;
+    }
+    .projectsHeading{
+        text-align: left;
+        padding: 90px 0 60px 0;
+    }
+    
+    /* .projectimageDiv{
+        width: 40vw;
+        height: 40vh;
+    } */
+    
+    .projectContent{
+        margin:auto;
+        width: 90%;
+    }
+    
+    .projectImg{
+        
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        left:23%;
+        padding-top: 1%;
+        z-index: -1;
+    }
+    
+    .projectDesc{
+        direction:rtl;
+        padding-right: 15%;
+    }
+    
+    .sportTrendExplanation{
+        background-color: #112B3C;
+        color: white;
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+    
+    .sportTrendtext{
+      padding: 0 0 15px 0;
+    }
+    
+    .featuredProject{
+        font-size: 1.4rem;
+    }
+    
+    .projectlinks{
+        display: inline;
+        padding: 0 0 0 20px;
+    }
+    
+    .projectlinksDiv{
+        padding: 10px;
+    }
+    
+    .githubLogo{
+        width:7%;
+        
+    }
+    
+    
+    
+    
+    /* /////////////Other projects Section /////////////////// */
+    
+    .OtherProjectsSection{
+        padding:150px 0;
+    }
+    .otherProjectsHeadingDiv{
+        margin: auto;
+        width: 70%;
+        
+       
+    }
+    
+    .otherProjectsHeading{
+        text-align: center;
+        padding-top: 5%;
+        
+    }
+    
+    .projectCardsDiv{
+      justify-content: center;
+      padding: 2% 10%;
+    }
+    
+    .projectCard{
+        margin: 20px;
+    
+    }
+    
+    .projectCards{
+        border: 1px solid black;
+        width: 300px;
+    }
+    
+    .folderLogo{
+        width: 18%; 
+        height: auto;
+    }
+    
+    .folderLogoDIv{
+      padding: 20px 0 20px 10px;
+    }
+    
+    .cardText{
+        padding-left: 10px;
+        font-size: 1.3rem;
+    }
+    
+    .projectCardList{
+        display: inline-block;
+        padding: 0 0 0 10PX;
+    }
+    
+    .projectCards{
+        margin: 2%;
+    }
+    
+    /* /////////////////////GetInTouch Section ////////////////////////// */
+    
+    .getInTouchSection{
+        text-align: center;
+        padding: 200px 0;
+    }
+    
+    .whatNextText{
+    
+    }
+    .getintouchText{
+        font-size: 4rem;
+    }
+    
+    .getInTouchPara{
+        font-size: 1.5rem;
+        padding: 20px 300px;
+    }
+    
+    .getInTouchButton{
+        padding: 10px;
+    }
+    
+    .footer{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .footerIcons{
+        padding: 2%;
+    }
+    
+    .icons{
+        width:25%;
+        margin:auto; 
+    }
+    
+    
+    .linkedinLogo{
+        /* text-align: right; */
+        width: 17%;
+    }
+    
+    .githubFooterLogo{
+        /* text-align:left ; */
+        width: 17%;
+    }
+
+    .twitterLogo{
+        width: 16%;
+    }
+    
+
+}
+
+@media screen and (max-width: 800px){
+    p{
+        font-size: 1.2rem;
+    }
+    
+    .intro{
+        padding-top: 12%; 
+    }
+    .introParagraph{
+        font-size: 1.2rem;
+    }
+    
+    .intro-heading{
+      margin: auto;
+      width: 80%;;
+    }
+    
+    .myName{
+        font-size: 2.5rem;
+    }
+    
+    .greeting{
+    }
+    
+    .myMiniverse{
+        font-size: 2rem;
+    }
+    
+    .introParagraphDiv{
+      /* margin: auto;
+      width: 80%; */
+      padding: 5% 0;      
+    }
+    
+    .introParagraph{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .introBtnDiv{
+      padding-top: 2%;
+      margin: auto;
+      width: 80%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* //////////////////About Me section //////////////*/
+    body{
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        word-spacing: -0.05em;
+    }
+    .aboutMeSection{
+        display: block;
+        justify-content: center;
+        
+    }
+    
+    .aboutMeLogo{
+      text-align: center;
+      padding: 90px 0 30px 0;
+      
+      
+      }
+      
+    .aboutMeLogoDiv{
+      margin: auto;
+      width: 80%;
+      
+      
+      }
+      
+    .myPic{
+        max-width: 100%;
+        height: auto;
+        border-radius: 5%;  
+    
+    }
+    
+    .aboutMePic{
+        padding: 0 10%;
+    }
+    .aboutMeContent{
+      padding: 0 20% 0 15%;
+    
+    }
+    
+    .aboutMeLogoDiv{
+        text-align: center;
+    }
+    
+    .aboutMeText{
+        width: 80%;
+        margin: auto;
+        font-size: 1.2rem;
+      /* font-size: 1.6rem;
+      text-align: justify;
+      text-justify: inter-word; */
+      /* padding-right: 20px; */
+    }
+    
+    /* ///////////////////// Jobs Section ////////////////////////////////// */
+    
+    
+    .jobsSection{
+        margin: auto; /*this will center the div*/
+        width: 90%;
+        padding: 100px 0;
+    }
+    
+    .jobsHeader{
+        padding: 50px 0;
+    }
+    
+    .jobsHeaderDiv{
+        text-align: center;
+    }
+    
+    .buttonWrapper{
+        margin: auto;
+    }
+    
+    .jobsButton{
+      padding: 15px;
+    }
+    
+    .jobsButtonDiv{
+        margin: auto;
+        width: 40%;
+        padding-bottom: 30px;
+        
+    }
+    
+    .jobsDiv{
+        margin: auto;
+    }
+    
+    .jobsDescDIv{
+      
+    }
+    
+    /* //////////////////  What I have built section /////////////////// */
+    
+    
+    .projects{
+        max-height: 100%;
+        width: auto;
+    }
+    
+    .projectsHeadingDiv{
+      margin: auto;
+      width: 80%;
+    }
+    .projectsHeading{
+        text-align: center;
+        padding: 90px 0 30px 0;
+    }
+    
+    /* .projectimageDiv{
+        width: 40vw;
+        height: 40vh;
+    } */
+    
+    .projectImg{
+        max-width: 100%;
+        height: auto;
+        padding-top: 1%;
+        z-index: -1;
+    }
+    
+    .projectDesc{
+        direction:rtl;
+        /* padding-right: 15%; */
+    }
+    
+    .sportTrendExplanation{
+        background-color: #112B3C;
+        color: white;
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+    
+    .sportTrendtext{
+      padding: 0 0 15px 0;
+    }
+    
+    .featuredProject{
+        font-size: 1.4rem;
+    }
+    
+    .projectlinks{
+        display: inline;
+        padding: 0 0 0 20px;
+    }
+    
+    .projectlinksDiv{
+        padding: 10px;
+    }
+    
+    .githubLogo{
+        width:7%;
+        
+    }
+    
+    
+    
+    
+    /* /////////////Other projects Section /////////////////// */
+    
+    .otherProjectsHeadingDiv{
+        margin: auto;
+        width: 80%;
+       
+    }
+    
+    .otherProjectsHeading{
+        text-align: center;
+        padding-top: 5%;
+        
+    }
+    
+    .projectCardsDiv{
+      justify-content: center;
+      padding: 2% 10%;
+    }
+    
+    .projectCard{
+        margin: 20px;
+    
+    }
+    
+    .projectCards{
+        border: 1px solid black;
+        width: 300px;
+    }
+    
+    .folderLogo{
+        width: 18%; 
+        height: auto;
+    }
+    
+    .folderLogoDIv{
+      padding: 20px 0 20px 10px;
+    }
+    
+    .cardText{
+        padding-left: 10px;
+        font-size: 1.3rem;
+    }
+    
+    .projectCardList{
+        display: inline-block;
+        padding: 0 0 0 10PX;
+    }
+    
+    .projectCards{
+        margin: 2%;
+    }
+    
+    /* /////////////////////GetInTouch Section ////////////////////////// */
+    
+    .getInTouchSection{
+        text-align: center;
+        padding: 200px 0;
+    }
+    
+    .whatNextText{
+    
+    }
+    .getintouchText{
+        font-size: 2rem;
+    }
+    
+    .getInTouchPara{
+        font-size: 1.2rem;
+        width: 90%;
+        margin: auto;
+        text-justify: inter-character;
+        /* padding: 20px 300px; */
+    }
+    
+    .getInTouchButton{
+        padding: 10px;
+    }
+
+    /* ///////////////////FooterSection //////////////// */
+    
+    .footer{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .footerIcons{
+        padding: 2%;
+        margin:auto;
+    }
+
+    .icons{
+        width:25%;
+        margin:auto;
+        
+    }
+    
+    
+    .linkedinLogo{
+        /* text-align: right; */
+        width: 25%;
+    }
+    
+    .githubFooterLogo{
+        /* text-align:left ; */
+        width: 25%;
+    }
+
+    .twitterLogo{
+        width: 25%;
+    }
+    
+      
+}
