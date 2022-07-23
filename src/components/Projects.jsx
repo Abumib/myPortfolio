@@ -5,7 +5,7 @@ function Projects(){
  
   const [projects, setProjects] = useState([]); //always give an initial state or else when you refresh the componenets will be rendered before the api call
   useEffect(()=>{
-        Axios.get("http://localhost:3001/", {
+        Axios.get("https://abubakarlawwal-portfolio.herokuapp.com/", {
             
          })
          .then((response)=>{
@@ -41,7 +41,7 @@ function Projects(){
                     <h2 className="sportTrendtext"> SportTrend</h2>
                   </div>
                   <div className="sportTrendExplanation">
-                    <p>Sport Trend is a platform to be used for recording and sharing the events on a sport competition</p>
+                    <p>Sport Trend is web app used to broadcast sport news and stats. You have tables showing team stats, lists showing rankings between athletes and much more. This project was supposed to be for the colleges to help increase the intensity, fun and a medium in which sport activities will be reported to students</p>
                   </div>
                   <div className="projectlinksDiv">
                     <ul>
@@ -80,7 +80,7 @@ function Projects(){
                projects.map(projectItems => (
                  <div className="projectCards">
                     <div className="folderLogoDIv">
-                      <a href="https://github.com/Abumib/AUN-Sport-web-App" target="_blank" rel="noopener noreferrer"> <img className="folderLogo" src="images/folder.png" alt="folderPicture" /></a>
+                      <a href={projectItems.link} target="_blank" rel="noopener noreferrer"> <img className="folderLogo" src="images/folder.png" alt="folderPicture" /></a>
                     </div>
                     <div className="cardText">
                       <h2>{projectItems.title}</h2>

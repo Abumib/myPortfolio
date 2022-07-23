@@ -6,9 +6,10 @@ function AboutMe(){
             </div>
             <div className="aboutMeContentDiv row">
               <div className="aboutMeText col-lg-6">
-                <p>Hello! My name is Abubakar Aminu Lawwal and I enjoy problem solving. I can't get used to the feeling of solving a puzzle, quiz etc. My interest in computer science was when I heard about digital nomad life style. I jumped into CS and here I am today starting my journey.</p>
+                <p>Hello! I'm Abubakar. I graduated with a bachelors in software engineering from the American university of Nigeria. My interest in computer science started when I searched the meaning of digital nomad.
+Yeah I know, the dream life of an 18 year old. So I pludged into the world of computer science and loved it. With what I could do, I thought i was to become the next mark Zuckerberg. I learnt the hardway. And my dreams about being a digital nomad? ABANDONED. Just Kidding</p>
                 <br/>
-                <p>I haven't had the opportunity to land a intership with a tech role but I have managed to learn one two with personal projects. With that was able to build this portfolio using the MERN stack. </p>
+                <p>I haven't had the opportunitiy to land a technicall job yet. In the meantime, I'm just doing projects that sound interesting to me using MERN stack. I play basketball, watch anime, learn new tech stuffs in my free time. </p>
                 <br/>
                 
                 <div className="listOfToolsIuse">
@@ -18,12 +19,12 @@ function AboutMe(){
                       <td colSpan="2"><p>Here are some of the tools I frequently use : </p></td>
                     </tr>
                     <tr>
-                      <td><p>=\ Node.js</p></td>
-                      <td><p>=\ React.js</p></td>
+                      <td><p><img src="images/play.png" className="playImage" alt="playimage"/> Node.js</p></td>
+                      <td><p><img src="images/play.png" className="playImage" alt="playimage"/> React.js</p></td>
                     </tr>
                     <tr>
-                    <td><p>=\ MongoDB</p></td>
-                      <td><p>=\ Python</p></td>
+                    <td><p><img src="images/play.png" className="playImage" alt="playimage"/> MongoDB</p></td>
+                      <td><p><img src="images/play.png" className="playImage" alt="playimage"/> Python</p></td>
                     </tr>
                     </tbody>
                   </table>

@@ -10,11 +10,13 @@ function GetInTouch(){
                 Get In Touch
               </h1>
               <p className="getInTouchPara">
-                Althou I'm not currently looking for new opportunities to explore, my inbox is always open. A message could open an opportunity.
+                Have a question ? Want to say hi ? Want to be a friend ? my inbox is always open. I'm also opened for new opportunities. 
               </p>
             </div>
             <div className="getInTouchButton">
-            <Button variant="outline-dark btn-lg"><a href="mailto:abubakarchinade@gmail.com" target="_blank" rel="noopener noreferrer">Let's Talk</a></Button>{' '}
+            <Button variant="outline-dark btn-lg" onClick={() => window.location = 'mailto:abubakarchinade@gmail.com'}>Let's Talk</Button>{' '}
+
+            {/* <a href="mailto:abubakarchinade@gmail.com" target="_blank" rel="noopener noreferrer">Let's Talk</a> */}
             </div>
           </div>
     );

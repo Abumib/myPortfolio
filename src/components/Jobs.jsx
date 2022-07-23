@@ -6,9 +6,9 @@ function Jobs(){
   const [job ,setJob] = useState({
     role: "National Youth Service @ NITDA",
         period: "March 2022 - Present",
-        workDesc1: "build software that mostly had to do with CRUD",
-        workDesc2: "build software that used API of other products",
-        workDesc3: "Went to work to warm my chair up."
+        workDesc1: "studying algorithms and data structure to implement efficient software",
+        workDesc2: "Learning about API calls and how to connect differnet parts of an application to function as one.",
+        workDesc3: "Modeling using UML class, sequence and UseCase diagrams."
   });
   
 
