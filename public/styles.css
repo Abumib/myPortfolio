@@ -739,7 +739,7 @@ a:active { text-decoration: none; color: black;}
     
     .intro-heading{
       margin: auto;
-      width: 80%;;
+      width: 90%;;
     }
     
     .myName{
@@ -760,7 +760,7 @@ a:active { text-decoration: none; color: black;}
     }
     
     .introParagraph{
-        width: 70%;
+        width: 85%;
         margin: auto;
     }
     
@@ -780,19 +780,24 @@ a:active { text-decoration: none; color: black;}
     
     /* //////////////////About Me section //////////////*/
     body{
-        text-align: justify;
-        hyphens: auto;
-        -webkit-hyphens: auto;
-        word-spacing: -0.05em;
+       
+        text-align: left;
+        /* text-justify: inter-word;
+        letter-spacing: 0;
+        direction:ltr; */
+        /* hyphens: auto;
+        -webkit-hyphens: auto; */
+        /* word-spacing: -0.03em; */
     }
+
     .aboutMeSection{
-        display: block;
-        justify-content: center;
+        /* display: block; */
+        /* justify-content: center; */
         
     }
     
     .aboutMeLogo{
-      text-align: center;
+      text-align: left;
       padding: 90px 0 30px 0;
       
       
@@ -825,7 +830,7 @@ a:active { text-decoration: none; color: black;}
     }
     
     .aboutMeText{
-        width: 80%;
+        width: 85%;
         margin: auto;
         font-size: 1.2rem;
       /* font-size: 1.6rem;
@@ -920,20 +925,29 @@ a:active { text-decoration: none; color: black;}
     }
     
     .sportTrendtext{
+        
       padding: 0 0 15px 0;
     }
     
     .featuredProject{
+        
         font-size: 1.4rem;
     }
     
-    .projectlinks{
+    /* .projectlinks{
         display: inline;
-        padding: 0 0 0 20px;
-    }
+        padding: 0 0 0 25px;
+        
+    } */
     
     .projectlinksDiv{
         padding: 10px;
+    }
+
+    .githubLogoDiv{
+        text-align: center;
+        padding-bottom: 50px;
+        
     }
     
     .githubLogo{

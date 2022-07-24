@@ -6,10 +6,10 @@ function AboutMe(){
             </div>
             <div className="aboutMeContentDiv row">
               <div className="aboutMeText col-lg-6">
-                <p>Hello! I'm Abubakar. I graduated with a bachelors in software engineering from the American university of Nigeria. My interest in computer science started when I searched the meaning of digital nomad.
-Yeah I know, the dream life of an 18 year old. So I pludged into the world of computer science and loved it. With what I could do, I thought i was to become the next mark Zuckerberg. I learnt the hardway. And my dreams about being a digital nomad? ABANDONED. Just Kidding</p>
+                <p>Hello! I'm Abubakar. I graduated with a bachelor's in software engineering from the American University of Nigeria. My interest in computer science started when I searched for the meaning of digital nomad.
+Yeah!I know, the dream life of an 18-year-old. So I plunged into the world of computer science and loved it. With what I could do, I thought I was to become the next Mark Zuckerberg. I learned the hard way. And my dreams about being a digital nomad? ABANDONED. Just Kidding</p>
                 <br/>
-                <p>I haven't had the opportunitiy to land a technicall job yet. In the meantime, I'm just doing projects that sound interesting to me using MERN stack. I play basketball, watch anime, learn new tech stuffs in my free time. </p>
+                <p>I haven't had the opportunity to land a technical job yet. In the meantime, I'm just doing projects that sound interesting to me using the MERN stack most of the time. I play basketball, watch anime, and learn new tech stuff in my free time. </p>
                 <br/>
                 
                 <div className="listOfToolsIuse">
@@ -31,7 +31,7 @@ Yeah I know, the dream life of an 18 year old. So I pludged into the world of co
                 </div>
               </div>
               <div className="aboutMePic col-lg-6">
-              <img src="images/image0.jpeg"  className="myPic img-fluid" alt="myPicture"/>
+              <img src="images/image1.jpg"  className="myPic img-fluid" alt="myPicture"/>
               </div>
             </div>
             

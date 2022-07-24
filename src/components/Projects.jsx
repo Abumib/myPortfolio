@@ -41,17 +41,17 @@ function Projects(){
                     <h2 className="sportTrendtext"> SportTrend</h2>
                   </div>
                   <div className="sportTrendExplanation">
-                    <p>Sport Trend is web app used to broadcast sport news and stats. You have tables showing team stats, lists showing rankings between athletes and much more. This project was supposed to be for the colleges to help increase the intensity, fun and a medium in which sport activities will be reported to students</p>
+                    <p>SportTrend is a web app used to broadcast sports news and stats. You have tables showing team stats, lists showing rankings between athletes, and much more. This project was supposed to be for colleges to help increase the intensity, fun, and a medium in which sports activities will be reported to students</p>
                   </div>
                   <div className="projectlinksDiv">
                     <ul>
                       <li className="projectlinks">Nodjs </li>
-                      <li className="projectlinks">Embedded Javascript EJS</li>
+                      <li className="projectlinks">Embedded Javascript</li>
                       <li className="projectlinks">MongoDB</li>
                       <li className="projectlinks">Bootstrap</li>
                     </ul>
                   </div>
-                  <div>
+                  <div className="githubLogoDiv">
                     <a href="github.com" target="_blank" rel="noopener noreferrer"> <img className="githubLogo" src="images/github.png" alt="github" /> </a> 
                   </div>
                   

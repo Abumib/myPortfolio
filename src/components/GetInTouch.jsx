@@ -10,7 +10,7 @@ function GetInTouch(){
                 Get In Touch
               </h1>
               <p className="getInTouchPara">
-                Have a question ? Want to say hi ? Want to be a friend ? my inbox is always open. I'm also opened for new opportunities. 
+              Have a question? Want to say hi? Want to be a friend? My inbox is always open. I'm also open for new opportunities. 
               </p>
             </div>
             <div className="getInTouchButton">
