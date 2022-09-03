@@ -9,7 +9,7 @@ function AboutMe(){
                 <p>Hello! I'm Abubakar. I graduated with a bachelor's in software engineering from the American University of Nigeria. My interest in computer science started when I searched for the meaning of digital nomad.
 Yeah!I know, the dream life of an 18-year-old. So I plunged into the world of computer science and loved it. With what I could do, I thought I was to become the next Mark Zuckerberg. I learned the hard way. And my dreams about being a digital nomad? ABANDONED. Just Kidding</p>
                 <br/>
-                <p>I haven't had the opportunity to land a technical job yet. In the meantime, I'm just doing projects that sound interesting to me using the MERN stack most of the time. I play basketball, watch anime, and learn new tech stuff in my free time. </p>
+                <p> In the meantime, I'm just doing projects that sound interesting to me using the MERN stack most of the time. I play basketball, watch anime, and learn new tech stuff in my free time. </p>
                 <br/>
                 
                 <div className="listOfToolsIuse">
